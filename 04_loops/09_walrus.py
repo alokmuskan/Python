@@ -27,4 +27,4 @@ print(f"Available flavours: ", flavours)
 
 while (flavour := input("Choose your flavour: ")) not in flavours:
     print(f"Sorry, {flavour} is not available")
-print(f"You Choose {flavour} chai")
+print(f"You Choose {flavour} chai")  # this line is not part of loop
