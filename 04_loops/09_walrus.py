@@ -18,3 +18,13 @@ if(requested_size := input("Entre your chai cup size: ")) in available_size:
     print(f"Serving {requested_size} chai")
 else:
     print(f"Size is unavaiable - {requested_size}")
+
+
+
+flavours = ["masala", "ginger", "lemon", "mint"]
+
+print(f"Available flavours: ", flavours)
+
+while (flavour := input("Choose your flavour: ")) not in flavours:
+    print(f"Sorry, {flavour} is not available")
+print(f"You Choose {flavour} chai")
