@@ -5,4 +5,4 @@ for name, age in staff:
         print(f"{name} is eligible to manage the staff")
         break
 else:
-    print(f("No one is eligible to manage the staff"))
+    print(f"No one is eligible to manage the staff")
