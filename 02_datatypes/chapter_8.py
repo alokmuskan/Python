@@ -27,3 +27,10 @@ print(f"Liquid mix : {full_liquid_mix}")  # works same as string concatination
 
 strong_brew = ["black tea", "milk"] * 3   # maintains the order and prints three times
 print(f"Strong brew : {strong_brew}")
+
+
+# bytearray() -> method that returns a new array of bytes 
+
+raw_spice_data = bytearray(b"CINNAMON")
+raw_spice_data = raw_spice_data.replace(b"CINNA", b"CARD")
+print(f"Bytes : {raw_spice_data}")
