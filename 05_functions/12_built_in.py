@@ -6,3 +6,5 @@ def chai_flavour(flavour="masala"):
 
 print(chai_flavour.__doc__)
 print(chai_flavour.__name__)
+
+help(len)  # another builtin function to which we can pass anything 
