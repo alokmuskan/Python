@@ -14,3 +14,9 @@ def pour_chai(n):     # recursive function
         return "All chai is poured"
     return pour_chai(n-1)
 print(pour_chai(3))
+
+
+chai_types = ["light", "kadak", "ginger", "kadak"]      #anonymous function (lambda)
+
+strong_chai = list(filter(lambda chai: chai="kadak", chai_types))
+print(strong_chai)
