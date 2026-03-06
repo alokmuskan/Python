@@ -5,6 +5,10 @@
 # return_value = make_chai()
 # print(return_value)
 
-def idle_chaiwala():
-    pass
-print(idle_chaiwala())
+# def idle_chaiwala():
+#     pass
+# print(idle_chaiwala())
+
+
+def sold_cups():
+    return 120
