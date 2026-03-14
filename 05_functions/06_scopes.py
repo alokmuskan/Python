@@ -3,6 +3,6 @@ def serve_chai():
     print(f"Chai type is {chai_type}")
 
 
-chai_type = "Lemon"
+# chai_type = "Lemon"
 serve_chai()
 print(f"Outside Function: {chai_type}")
