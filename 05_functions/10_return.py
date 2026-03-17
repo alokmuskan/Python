@@ -1,6 +1,10 @@
-def make_chai():
-    #return "Here is your masala chai"
-    print("Here is your masala chai")
+# def make_chai():
+#     #return "Here is your masala chai"
+#     print("Here is your masala chai")
 
-return_value = make_chai()
-print(return_value)
+# return_value = make_chai()
+# print(return_value)
+
+def idle_chaiwala():
+    pass
+print(idle_chaiwala())
