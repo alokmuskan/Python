@@ -14,7 +14,13 @@
 # print(chai)
 
 
-def make_chai(tea, milk, sugar):
-    print(tea, milk, sugar)
-make_chai("darjeeling", "yes", "sugar") #positional
-make_chai(tea="green", sugar="no", milk="little") #keywords or kargs
+# def make_chai(tea, milk, sugar):
+#     print(tea, milk, sugar)
+# make_chai("darjeeling", "yes", "sugar") #positional
+# make_chai(tea="green", sugar="no", milk="little") #keywords or kargs
+
+
+def special_chai(*ingredients, **extras):
+    print("Ingredients", ingredients)
+    print("Extras", extras)
+special_chai("cinnamon","cardmom", sweetener="Honey", foam="yes")
