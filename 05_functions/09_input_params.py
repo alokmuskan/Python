@@ -12,3 +12,9 @@ def edit_chai(cup):
 
 edit_chai(chai)
 print(chai)
+
+
+def make_chai(tea, milk, sugar):
+    print(tea, milk, sugar)
+
+make_chai("darjeeling", "yes", "sugar") #positional
