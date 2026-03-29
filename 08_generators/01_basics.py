@@ -24,4 +24,4 @@ def get_chai_gen():
 
 
 chai = get_chai_gen()
-print(chai)
+print(next(chai))
